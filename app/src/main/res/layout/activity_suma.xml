@@ -59,7 +59,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="RegreasarMenu"
+        android:onClick="sumar"
         android:text="Calcular"
         tools:layout_editor_absoluteX="140dp"
         tools:layout_editor_absoluteY="391dp" />
@@ -81,6 +81,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="RegreasarMenu"
         android:text="Regresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

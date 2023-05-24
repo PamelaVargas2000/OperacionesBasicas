@@ -58,6 +58,7 @@
         android:id="@+id/regreasarMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="RegreasarMenu"
         android:text="Regresar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +84,7 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="RegreasarMenu"
+        android:onClick="multiplicar"
         android:text="Calcular"
         tools:layout_editor_absoluteX="155dp"
         tools:layout_editor_absoluteY="461dp" />

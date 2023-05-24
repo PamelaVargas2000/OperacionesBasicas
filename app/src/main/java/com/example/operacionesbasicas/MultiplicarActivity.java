@@ -22,7 +22,7 @@ public class MultiplicarActivity extends AppCompatActivity {
     public void multiplicar(View view) {
         EditText numero1 = (EditText) findViewById(R.id.editMultNumber1);
         EditText numero2 = (EditText) findViewById(R.id.editMultNumber2);
-        TextView total = findViewById(R.id.txtEResultado);
+        TextView total = findViewById(R.id.txtEResultado3);
 
 
         double resultado = Double.parseDouble(numero1.getText().toString()) * Double.parseDouble(numero2.getText().toString());
