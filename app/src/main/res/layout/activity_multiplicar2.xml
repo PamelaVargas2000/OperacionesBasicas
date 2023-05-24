@@ -2,33 +2,25 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/txtRestaNum2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Resta">
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="RegreasarMenu"
-        android:text="Calcular"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="461dp" />
-
-    <TextView
-        android:id="@+id/txtEResultado2"
-        android:layout_width="71dp"
-        android:layout_height="66dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.852"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.542" />
+    tools:context=".MultiplicarActivity">
 
     <EditText
-        android:id="@+id/txtRestaNum2"
+        android:id="@+id/editMultNumber1"
+        android:layout_width="193dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <EditText
+        android:id="@+id/editMultNumber2"
         android:layout_width="193dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -41,20 +33,7 @@
         app:layout_constraintVertical_bias="0.406" />
 
     <TextView
-        android:id="@+id/txtNumero2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="INGRESAR NUMERO"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.399" />
-
-    <TextView
-        android:id="@+id/txtNumero1"
+        android:id="@+id/txtNumero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INGRESAR NUMERO"
@@ -66,30 +45,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.325" />
 
-    <EditText
-        android:id="@+id/txtRestaNum1"
-        android:layout_width="193dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.977"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.331" />
-
     <TextView
-        android:id="@+id/textTituloSuma2"
+        android:id="@+id/textTituloSuma3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Resta"
+        android:text="Multiplicar"
         android:textSize="48sp"
         tools:layout_editor_absoluteX="122dp"
         tools:layout_editor_absoluteY="129dp" />
 
     <Button
-        android:id="@+id/RegreasarMenu"
+        android:id="@+id/regreasarMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Regresar"
@@ -100,4 +66,36 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
 
+    <TextView
+        android:id="@+id/txtNumero3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGRESAR NUMERO"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="RegreasarMenu"
+        android:text="Calcular"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <TextView
+        android:id="@+id/txtEResultado3"
+        android:layout_width="71dp"
+        android:layout_height="66dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542" />
 </androidx.constraintlayout.widget.ConstraintLayout>
