@@ -13,15 +13,18 @@
         android:theme="@style/Theme.OperacionesBasicas"
         tools:targetApi="31" >
         <activity
+            android:name=".RestaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DividirActivity"
+            android:exported="false" />
+        <activity
             android:name=".MultiplicarActivity"
             android:exported="false" />
         <activity
             android:name=".ui.login.DividirActivity"
             android:exported="false"
             android:label="@string/title_activity_dividir" />
-        <activity
-            android:name=".RestaActivity"
-            android:exported="false" />
         <activity
             android:name=".Resta"
             android:exported="false" />
