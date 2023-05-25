@@ -4,33 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/material_dynamic_tertiary95"
     tools:context=".RestaActivity">
 
     <EditText
         android:id="@+id/txtRestaNum1"
-        android:layout_width="182dp"
+        android:layout_width="136dp"
         android:layout_height="45dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintHorizontal_bias="0.843"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.307" />
+        app:layout_constraintVertical_bias="0.298" />
+
+    <TextView
+        android:id="@+id/txtNumero7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGRESAR NUMERO"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <TextView
+        android:id="@+id/txtNumero6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGRESAR NUMERO"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
 
     <EditText
         android:id="@+id/txtRestaNum2"
-        android:layout_width="179dp"
-        android:layout_height="45dp"
+        android:layout_width="139dp"
+        android:layout_height="43dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.434" />
+        app:layout_constraintVertical_bias="0.409" />
 
     <Button
         android:id="@+id/regreasarMenu4"
@@ -50,6 +79,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Resta"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textColorHighlight="?android:attr/colorActivatedHighlight"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,41 +90,15 @@
         app:layout_constraintVertical_bias="0.148" />
 
     <TextView
-        android:id="@+id/txtNumero6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="INGRESAR NUMERO"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.299" />
-
-    <TextView
-        android:id="@+id/txtNumero7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="INGRESAR NUMERO"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.384" />
-
-    <TextView
         android:id="@+id/txtEResultado5"
         android:layout_width="71dp"
         android:layout_height="66dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintHorizontal_bias="0.682"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.542" />
+        app:layout_constraintVertical_bias="0.535" />
 
     <Button
         android:id="@+id/button8"

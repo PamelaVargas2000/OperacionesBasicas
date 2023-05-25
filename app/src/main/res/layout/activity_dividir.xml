@@ -8,38 +8,39 @@
 
     <EditText
         android:id="@+id/editDivNumber1"
-        android:layout_width="193dp"
+        android:layout_width="132dp"
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintHorizontal_bias="0.867"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.331" />
+        app:layout_constraintVertical_bias="0.321" />
 
     <EditText
         android:id="@+id/editDivNumber2"
-        android:layout_width="179dp"
-        android:layout_height="45dp"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintHorizontal_bias="0.861"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419" />
+        app:layout_constraintVertical_bias="0.422" />
 
     <TextView
         android:id="@+id/textTitulDividir2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dividir"
+        android:textColor="?android:attr/colorFocusedHighlight"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="130dp" />
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="118dp" />
 
     <Button
         android:id="@+id/regreasarMenu2"
@@ -52,20 +53,21 @@
         app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <TextView
         android:id="@+id/txtNumero5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INGRESAR NUMERO"
-        android:textSize="20sp"
+        android:textColorHighlight="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.424" />
 
     <TextView
         android:id="@+id/txtEResultado4"
@@ -73,10 +75,10 @@
         android:layout_height="66dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.711"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544" />
+        app:layout_constraintVertical_bias="0.562" />
 
     <Button
         android:id="@+id/button6"
@@ -84,15 +86,16 @@
         android:layout_height="wrap_content"
         android:onClick="dividir"
         android:text="Calcular"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="462dp" />
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="496dp" />
 
     <TextView
         android:id="@+id/txtNumero4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INGRESAR NUMERO"
-        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
