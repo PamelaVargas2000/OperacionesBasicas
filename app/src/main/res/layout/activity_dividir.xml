@@ -13,6 +13,7 @@
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="number"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.867"
@@ -26,6 +27,7 @@
         android:layout_height="38dp"
         android:ems="10"
         android:inputType="number"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.861"
@@ -40,8 +42,12 @@
         android:text="Dividir"
         android:textColor="?android:attr/colorFocusedHighlight"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="118dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
 
     <Button
         android:id="@+id/regreasarMenu2"
@@ -61,6 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="INGRESAR NUMERO"
+        android:textColor="@color/black"
         android:textColorHighlight="@color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -74,6 +81,7 @@
         android:id="@+id/txtEResultado4"
         android:layout_width="71dp"
         android:layout_height="66dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.711"
@@ -87,8 +95,12 @@
         android:layout_height="wrap_content"
         android:onClick="dividir"
         android:text="Calcular"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="496dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
 
     <TextView
         android:id="@+id/txtNumero4"
