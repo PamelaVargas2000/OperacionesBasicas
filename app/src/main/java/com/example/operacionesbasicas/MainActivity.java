@@ -17,6 +17,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,SumaActivity.class);
         view.getContext().startActivity(intent);
     }
+
+
+
+
+
+
+
+
+
+
     public void  irResta(View view){
         Intent intent=new Intent(this,RestaActivity.class);
         view.getContext().startActivity(intent);

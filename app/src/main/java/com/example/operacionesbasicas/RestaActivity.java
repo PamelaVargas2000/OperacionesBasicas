@@ -25,8 +25,8 @@ public class RestaActivity extends AppCompatActivity {
         TextView total = findViewById(R.id.txtEResultado5);
 
 
-        double resultado = Double.parseDouble(numero1.getText().toString()) - Double.parseDouble(numero2.getText().toString());
-        total.setText(resultado + "");
+        double resultado2 = Double.parseDouble(numero1.getText().toString()) - Double.parseDouble(numero2.getText().toString());
+        total.setText(resultado2 + "");
 
     }
 }

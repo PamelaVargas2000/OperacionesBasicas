@@ -8,29 +8,29 @@
 
     <EditText
         android:id="@+id/txtRestaNum1"
-        android:layout_width="193dp"
-        android:layout_height="40dp"
+        android:layout_width="182dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintHorizontal_bias="0.917"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.331" />
+        app:layout_constraintVertical_bias="0.307" />
 
     <EditText
         android:id="@+id/txtRestaNum2"
-        android:layout_width="193dp"
-        android:layout_height="40dp"
+        android:layout_width="179dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintHorizontal_bias="0.918"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.406" />
+        app:layout_constraintVertical_bias="0.434" />
 
     <Button
         android:id="@+id/regreasarMenu4"
@@ -49,10 +49,14 @@
         android:id="@+id/textTituloSuma5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dividir"
+        android:text="Resta"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="129dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
 
     <TextView
         android:id="@+id/txtNumero6"
@@ -78,7 +82,7 @@
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.399" />
+        app:layout_constraintVertical_bias="0.434" />
 
     <TextView
         android:id="@+id/txtEResultado5"
@@ -97,6 +101,9 @@
         android:layout_height="wrap_content"
         android:onClick="restar"
         android:text="Calcular"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="461dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
 </androidx.constraintlayout.widget.ConstraintLayout>

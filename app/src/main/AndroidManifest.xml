@@ -13,10 +13,10 @@
         android:theme="@style/Theme.OperacionesBasicas"
         tools:targetApi="31" >
         <activity
-            android:name=".RestaActivity"
+            android:name=".DividirActivity"
             android:exported="false" />
         <activity
-            android:name=".DividirActivity"
+            android:name=".RestaActivity"
             android:exported="false" />
         <activity
             android:name=".MultiplicarActivity"
