@@ -7,17 +7,11 @@
     android:layout_height="match_parent"
     android:background="@color/material_dynamic_tertiary95"
     tools:context=".SumaActivity">
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.androidmorefast.moden.appreconocmientovoz.MainActivity">
+
     <EditText
         android:id="@+id/editTextNumber2"
-        android:layout_width="150dp"
-        android:layout_height="42dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
         android:textColor="@color/black"
@@ -30,7 +24,7 @@
 
     <TextView
         android:id="@+id/textTituloSuma"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Suma"
         android:textColor="?android:attr/colorFocusedHighlight"
@@ -45,8 +39,8 @@
 
     <TextView
         android:id="@+id/txtNumero1"
-        android:layout_width="176dp"
-        android:layout_height="39dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="INGRESAR NUMERO"
         android:textColor="@color/black"
         android:textSize="18sp"
@@ -55,11 +49,13 @@
         app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.322" />
+        app:layout_constraintVertical_bias="0.322"
+
+        />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="sumar"
         android:text="Calcular"
@@ -86,7 +82,7 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="RegreasarMenu"
         android:text="Regresar"
@@ -99,8 +95,8 @@
 
     <TextView
         android:id="@+id/txtEResultado"
-        android:layout_width="71dp"
-        android:layout_height="66dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:textColorHighlight="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -112,8 +108,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="174dp"
-        android:layout_height="39dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="INGRESAR NUMERO"
         android:textColor="@color/black"
         android:textColorHighlight="@color/black"
@@ -127,8 +123,8 @@
 
     <ImageButton
         android:id="@+id/img_btn_hablar"
-        android:layout_width="99dp"
-        android:layout_height="99dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:onClick="onClickImgBtnHablar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
