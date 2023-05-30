@@ -120,15 +120,14 @@
         app:layout_constraintVertical_bias="0.404" />
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="230dp"
-        android:layout_height="222dp"
+        android:id="@+id/start_button"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.878"
-        app:srcCompat="@drawable/sss" />
+        app:layout_constraintVertical_bias="0.799"
+        app:srcCompat="@drawable/microf" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
