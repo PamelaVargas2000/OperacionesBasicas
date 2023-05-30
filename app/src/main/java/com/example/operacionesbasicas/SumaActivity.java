@@ -62,6 +62,19 @@ public class SumaActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == REQUEST_RECORD_AUDIO_PERMISSION && resultCode == RESULT_OK) {
+            ArrayList<String> results = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+            if (results != null && results.size() > 0) {
+                String spokenText = results.get(0);
+                resultTextView.setText("Spoken text: " + spokenText);
+            }
+        }
+
+    }
 
     public void RegreasarMenu(View view) {
         this.finish();
